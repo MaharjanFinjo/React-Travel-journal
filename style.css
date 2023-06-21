@@ -1,0 +1,88 @@
+nav {
+  height: 55px;
+  background: #F55A5A;
+}
+
+.nav-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.075em;
+  color: #FFFFFF;
+  height: 16px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+
+.journal {
+  margin-top: 15px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  display: flex;
+  border-bottom: 1px solid #ccc; /* Add a line at the bottom */
+  margin-left: 20px;
+}
+
+.place {
+  width: 50%;
+  height: 170px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.card--info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  margin-left: 20px;
+}
+
+.card--info > * {
+  margin-top: 5px;
+}
+.journal {
+  width: 90%;
+  font-size: 12px;
+  display: flex;
+}
+
+.place {
+  width: 30%;
+  height: 220px;
+  margin-top: 10px;
+}
+
+.card--info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  margin-top: 15px;
+}
+
+.card--info > * {
+  margin-top: 5px;
+}
+
+.placeholder{
+    width: 13px;
+}
+
+.description{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.24px;
+line-height: 150%;
+}
+
+.gray {
+    color: #918E9B;
+}
+
+.bold{
+    font-weight: bold;
+}
